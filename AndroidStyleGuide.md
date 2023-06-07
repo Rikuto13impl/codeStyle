@@ -1,14 +1,61 @@
 # Android Style Guide
+[ルール](#rule)<br/>
+[命名](#name)<br/>
+[関数について](#method)
 ## 目的
 - 一貫した書き方にすることで可読性をあげて誰でも見やすいコードになる
 - バグの発生を防止。
 - 迷いをなくす。スタイルガイドが決まっていることで少しでも悩む時間を減らす。
 
+## ルール
+<a name="rule"></a>
+- オーブンブラケット ←`{` は同じ行に記述する
+ ```java
+// bad
+if (isEnable) 
+{
+}
+
+private void something()
+{
+}
+
+// good
+if (isEnable) {
+}
+
+private void something() {
+}
+```
+- `if`の後ろには空白を入れる 
+```java
+// bad
+if(isEnable) {
+
+}else{
+
+}
+
+// good
+if (isEnable) {
+
+} else {
+
+}
+```
+- `,`の後には空白を入れる
+```java
+// bad
+private void something(String beforeString,String afterText) {}
+
+// good
+private void something(String beforeString, String afterText) {}
+```
 ## 命名
-命名はコードにおいて非常に重要です。一番と言ってもいいです(個人的には)
+<a name="name"></a>
+命名はコードにおいて非常に重要です。一番と言ってもいいです(個人的には)。<br>
 適切な命名を心がけることでチーム開発を円滑に進めることができます。
 
-### 具体的な命名にする
 命名は具体的であるほどいいです。
 省略は避けましょう。`Button`を`Btn`にするなど
 
@@ -16,10 +63,10 @@
 なんの変数なのかわからないよりは100倍マシです。ChatGPTを活用するもの良いでしょう。
 押下したらユーザーの情報を取得するボタンの命名を考えて見ましょう。
 ```java
-// ダメな例
+// bad
 private Button getBtn
 
-// 良い例
+// good
 private Button getUserInfoButton
 ```
 このように具体的であることでなんのボタンなのかを一発でわかるようにしましょう。
@@ -33,12 +80,10 @@ camel記法
 動詞から始める。
 
 ## 関数(メソッド)について
+<a name="method"></a>
 ### 単一責任の原則
 一つのタスクを任せる。
 複数のタスクを任せると行数も長くなり可読性や保守性に影響を与える。
 
 処理に沿った命名にする。
-逆に命名がうまくできない時には処理の切り分けがうまくできていないと考える。
-### javadocコメントを書く
-
-
+逆に命名がうまくできない時には処理の切り分けがうまくできていないと考える
