@@ -6,9 +6,10 @@ Android Studioのversionによって差異あり<br><br>
 
 ## match case
 <a name="matchCase"></a>
-**preference > Editor > General > Code Completion**<br>
-
-補完を出す時に大文字小文字を区別しないようにする。<br>
+補完を出す時に大文字小文字を区別しないようにする。
+```
+preference > Editor > General > Code Completion
+```
 - [ ] Match case
  
 のチェックを外す。<br>
@@ -16,9 +17,11 @@ Android Studioのversionによって差異あり<br><br>
 
 ## auto import
 <a name="autoImport"></a>
-**preference > Editor > General > Auto Import**<br>
-
 自動でimportを書いてくれる。不要なimportは自動で消してくれる
+```
+preference > Editor > General > Auto Import
+```
+
 - [x] Add unambiguous imports on the fly
 - [x] Optimize imports on the fly<br>
  
@@ -26,7 +29,9 @@ Android Studioのversionによって差異あり<br><br>
 
 ## show whitespace
 <a name="whitespace"></a>
-**preference > Editor > Appearance**
+```
+preference > Editor > Appearance
+```
 
 - [x] Show whitespace
 
