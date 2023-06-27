@@ -40,4 +40,4 @@ preference > Editor > Appearance
 
 ## 実機のスクショ
 <a name="screenShot">
-![hello](https://gyazo.com/8b0e28b6eb86f097183378f3226aa8a9)
+[![Image from Gyazo](https://i.gyazo.com/8b0e28b6eb86f097183378f3226aa8a9.png)](https://gyazo.com/8b0e28b6eb86f097183378f3226aa8a9)
