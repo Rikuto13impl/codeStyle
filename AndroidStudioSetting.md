@@ -3,7 +3,7 @@ Android Studioのversionによって差異あり<br><br>
 [Match case](#matchCase)<br>
 [auto import](#autoImport)<br>
 [show whitespace](#whitespace)<br>
-[実機のスクショ](#whitespace)<br>
+[実機のスクショを撮る](#screenShot)<br>
 
 ## match case
 <a name="matchCase"></a>
@@ -38,6 +38,7 @@ preference > Editor > Appearance
 
 のチェックを入れる
 
-## 実機のスクショ
+## 実機のスクショを撮る
 <a name="screenShot">
-[![Image from Gyazo](https://i.gyazo.com/8b0e28b6eb86f097183378f3226aa8a9.png)](https://gyazo.com/8b0e28b6eb86f097183378f3226aa8a9)
+Logcatのサイドバーにあるカメラマークを押すと実機のスクショが撮れる<br>
+<img width="200" src="https://i.gyazo.com/fe2b32ee9984164a6c1e80448a6137bc.png">
