@@ -3,6 +3,7 @@ Android Studioのversionによって差異あり<br><br>
 [Match case](#matchCase)<br>
 [auto import](#autoImport)<br>
 [show whitespace](#whitespace)<br>
+[実機のスクショ](#whitespace)<br>
 
 ## match case
 <a name="matchCase"></a>
@@ -36,3 +37,7 @@ preference > Editor > Appearance
 - [x] Show whitespace
 
 のチェックを入れる
+
+## 実機のスクショ
+<a name="screenShot">
+![hello](https://gyazo.com/8b0e28b6eb86f097183378f3226aa8a9)
